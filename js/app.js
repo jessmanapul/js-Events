@@ -59,6 +59,15 @@ function showRecipe(){
 // Use this for the new image:
 // 'https://media.giphy.com/media/12pJ8OxSWwO86Y/giphy.gif'
 
+puggy.addEventListener('mouseover', changePic);
+
+function changePic(){
+    if (puggy.src === 'https://bit.ly/2RhOvm4') {
+        puggy.src = 'https://media.giphy.com/media/12pJ8OxSWwO86Y/giphy.gif';
+    } else {
+        puggy.src = 'https://bit.ly/2RhOvm4';
+    }
+}
 
 
 //6. DevLeague Lunch Wagon
